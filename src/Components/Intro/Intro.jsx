@@ -2,7 +2,6 @@ import { TypeAnimation } from "react-type-animation";
 import React, { useState } from "react";
 import Box from '@mui/material/Box';
 import LinearProgress from '@mui/material/LinearProgress';
-import { Animator, Fade, FadeIn, MoveIn, MoveOut, ScrollContainer, ScrollPage, Sticky, StickyIn, ZoomIn, batch } from "react-scroll-motion";
 
 
 
@@ -28,9 +27,7 @@ export default function Intro() {
             {/* Main Intro Section Start */}
 
            
-{/* <ScrollContainer className="bg-dark">
-    <ScrollPage page={5}>
-    <Animator animation={batch(Fade(1, .2))}> */}
+
                 <div className="mainIntro-Container container-fluid p-2 rounded">
 
 
@@ -106,9 +103,7 @@ export default function Intro() {
                             </div>
                        
                 </div>
-                {/* </Animator>
-                </ScrollPage>
-                </ScrollContainer> */}
+
            
             {/* end of main intro */}
 
