@@ -18,8 +18,6 @@ export default function Intro() {
     const [progress4] = useState(46)
     const [buffer4] = useState(60)
 
-    const ZoomInScroll = batch(Fade(), ZoomIn())
-
 
     return (
         <>
